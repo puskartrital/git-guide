@@ -5,6 +5,6 @@ cat ~/.ssh/id_rsa.pub   //copy the contents and paste that into the github->sett
 
 git init
 git add .
-git remote add origin https://github.com/puskartrital/jenkins-production.git
+git remote add origin https://github.com/your-username/your-repo-name.git
 git commit -m "message" -add
 git push origin master
