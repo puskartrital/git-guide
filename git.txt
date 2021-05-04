@@ -1,0 +1,10 @@
+setup git for pushing the contents to the remote
+ssh-keygen -t rsa -b 2048
+cat ~/.ssh/id_rsa.pub   //copy the contents and paste that into the github->settings->SSH&GPG Keys->new sshkey->paste the content of the id_rsa.pub
+
+
+git init
+git add .
+git remote add origin https://github.com/puskartrital/jenkins-production.git
+git commit -m "message" -add
+git push origin master
