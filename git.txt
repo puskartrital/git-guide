@@ -8,3 +8,5 @@ git add .
 git remote add origin https://github.com/your-username/your-repo-name.git
 git commit -m "commit message" -a
 git push origin master
+
+//more contents to add coming soon...
